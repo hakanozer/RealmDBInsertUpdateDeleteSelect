@@ -21,6 +21,8 @@ end
 
 
 
-#### Final Project 
-![](https://github.com/hakanozer/RealmDBInsertUpdateDeleteSelect/blob/master/Screen/realm_video.gif)
+#### Final Project
+<kbd>
+  <img src="https://github.com/hakanozer/RealmDBInsertUpdateDeleteSelect/blob/master/Screen/realm_video.gif">
+</kbd>
 
