@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9849DE7AC45A96254CCF1C /* Pods_RealmInsertDeleteUpdateJoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15431E5F2295D7D4C1E69B1A /* Pods_RealmInsertDeleteUpdateJoin.framework */; };
+		FF18CAA81E446934006F19F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CAA71E446934006F19F6 /* AppDelegate.swift */; };
+		FF18CAAA1E446934006F19F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CAA91E446934006F19F6 /* ViewController.swift */; };
+		FF18CAAD1E446934006F19F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF18CAAB1E446934006F19F6 /* Main.storyboard */; };
+		FF18CAAF1E446934006F19F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF18CAAE1E446934006F19F6 /* Assets.xcassets */; };
+		FF18CAB21E446934006F19F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF18CAB01E446934006F19F6 /* LaunchScreen.storyboard */; };
+		FF18CABB1E4469FE006F19F6 /* detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CAB91E4469FE006F19F6 /* detail.swift */; };
+		FF18CABC1E4469FE006F19F6 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CABA1E4469FE006F19F6 /* person.swift */; };
+		FF18CABE1E446CBC006F19F6 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CABD1E446CBC006F19F6 /* Images.swift */; };
+		FF7C05601E44EE3A00BAA786 /* desss.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C055F1E44EE3A00BAA786 /* desss.swift */; };
+		FF7C05621E44EFA100BAA786 /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C05611E44EFA100BAA786 /* imageCell.swift */; };
+		FF7DE6E81E4729D200DE4EBC /* 1486309028_icon-65-document-image.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE6E71E4729D200DE4EBC /* 1486309028_icon-65-document-image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15431E5F2295D7D4C1E69B1A /* Pods_RealmInsertDeleteUpdateJoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmInsertDeleteUpdateJoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB8B7CFC57CABEBAFCA7C1F /* Pods-RealmInsertDeleteUpdateJoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmInsertDeleteUpdateJoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmInsertDeleteUpdateJoin/Pods-RealmInsertDeleteUpdateJoin.release.xcconfig"; sourceTree = "<group>"; };
+		B85160206DECAAAC8173CDEF /* Pods-RealmInsertDeleteUpdateJoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmInsertDeleteUpdateJoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmInsertDeleteUpdateJoin/Pods-RealmInsertDeleteUpdateJoin.debug.xcconfig"; sourceTree = "<group>"; };
+		FF18CAA41E446934006F19F6 /* RealmInsertDeleteUpdateJoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmInsertDeleteUpdateJoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF18CAA71E446934006F19F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF18CAA91E446934006F19F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF18CAAC1E446934006F19F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF18CAAE1E446934006F19F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF18CAB11E446934006F19F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF18CAB31E446934006F19F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF18CAB91E4469FE006F19F6 /* detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detail.swift; sourceTree = "<group>"; };
+		FF18CABA1E4469FE006F19F6 /* person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		FF18CABD1E446CBC006F19F6 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		FF7C055F1E44EE3A00BAA786 /* desss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = desss.swift; sourceTree = "<group>"; };
+		FF7C05611E44EFA100BAA786 /* imageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
+		FF7DE6E71E4729D200DE4EBC /* 1486309028_icon-65-document-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1486309028_icon-65-document-image.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF18CAA11E446934006F19F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9849DE7AC45A96254CCF1C /* Pods_RealmInsertDeleteUpdateJoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038DB1A052F2FF70CA8DD00F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B85160206DECAAAC8173CDEF /* Pods-RealmInsertDeleteUpdateJoin.debug.xcconfig */,
+				AEB8B7CFC57CABEBAFCA7C1F /* Pods-RealmInsertDeleteUpdateJoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2353166E9879850F56CCD83C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15431E5F2295D7D4C1E69B1A /* Pods_RealmInsertDeleteUpdateJoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF18CA9B1E446934006F19F6 = {
+			isa = PBXGroup;
+			children = (
+				FF18CAA61E446934006F19F6 /* RealmInsertDeleteUpdateJoin */,
+				FF18CAA51E446934006F19F6 /* Products */,
+				038DB1A052F2FF70CA8DD00F /* Pods */,
+				2353166E9879850F56CCD83C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF18CAA51E446934006F19F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF18CAA41E446934006F19F6 /* RealmInsertDeleteUpdateJoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF18CAA61E446934006F19F6 /* RealmInsertDeleteUpdateJoin */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE6E71E4729D200DE4EBC /* 1486309028_icon-65-document-image.png */,
+				FF18CAB91E4469FE006F19F6 /* detail.swift */,
+				FF18CABA1E4469FE006F19F6 /* person.swift */,
+				FF18CAA71E446934006F19F6 /* AppDelegate.swift */,
+				FF18CAA91E446934006F19F6 /* ViewController.swift */,
+				FF7C055F1E44EE3A00BAA786 /* desss.swift */,
+				FF18CAAB1E446934006F19F6 /* Main.storyboard */,
+				FF7C05611E44EFA100BAA786 /* imageCell.swift */,
+				FF18CAAE1E446934006F19F6 /* Assets.xcassets */,
+				FF18CAB01E446934006F19F6 /* LaunchScreen.storyboard */,
+				FF18CAB31E446934006F19F6 /* Info.plist */,
+				FF18CABD1E446CBC006F19F6 /* Images.swift */,
+			);
+			path = RealmInsertDeleteUpdateJoin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF18CAA31E446934006F19F6 /* RealmInsertDeleteUpdateJoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF18CAB61E446934006F19F6 /* Build configuration list for PBXNativeTarget "RealmInsertDeleteUpdateJoin" */;
+			buildPhases = (
+				720A13765AB61F4554357D5B /* [CP] Check Pods Manifest.lock */,
+				FF18CAA01E446934006F19F6 /* Sources */,
+				FF18CAA11E446934006F19F6 /* Frameworks */,
+				FF18CAA21E446934006F19F6 /* Resources */,
+				0196ADFE8400F36C2C6FD1B3 /* [CP] Embed Pods Frameworks */,
+				C1BD204C7C9B72F15FFEA7E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmInsertDeleteUpdateJoin;
+			productName = RealmInsertDeleteUpdateJoin;
+			productReference = FF18CAA41E446934006F19F6 /* RealmInsertDeleteUpdateJoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF18CA9C1E446934006F19F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hakan;
+				TargetAttributes = {
+					FF18CAA31E446934006F19F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 88W5XT7F3Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF18CA9F1E446934006F19F6 /* Build configuration list for PBXProject "RealmInsertDeleteUpdateJoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF18CA9B1E446934006F19F6;
+			productRefGroup = FF18CAA51E446934006F19F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF18CAA31E446934006F19F6 /* RealmInsertDeleteUpdateJoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF18CAA21E446934006F19F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF18CAB21E446934006F19F6 /* LaunchScreen.storyboard in Resources */,
+				FF7DE6E81E4729D200DE4EBC /* 1486309028_icon-65-document-image.png in Resources */,
+				FF18CAAF1E446934006F19F6 /* Assets.xcassets in Resources */,
+				FF18CAAD1E446934006F19F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0196ADFE8400F36C2C6FD1B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmInsertDeleteUpdateJoin/Pods-RealmInsertDeleteUpdateJoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720A13765AB61F4554357D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BD204C7C9B72F15FFEA7E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmInsertDeleteUpdateJoin/Pods-RealmInsertDeleteUpdateJoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF18CAA01E446934006F19F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C05601E44EE3A00BAA786 /* desss.swift in Sources */,
+				FF18CABB1E4469FE006F19F6 /* detail.swift in Sources */,
+				FF18CAAA1E446934006F19F6 /* ViewController.swift in Sources */,
+				FF18CABE1E446CBC006F19F6 /* Images.swift in Sources */,
+				FF7C05621E44EFA100BAA786 /* imageCell.swift in Sources */,
+				FF18CABC1E4469FE006F19F6 /* person.swift in Sources */,
+				FF18CAA81E446934006F19F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF18CAAB1E446934006F19F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF18CAAC1E446934006F19F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF18CAB01E446934006F19F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF18CAB11E446934006F19F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF18CAB41E446934006F19F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF18CAB51E446934006F19F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF18CAB71E446934006F19F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85160206DECAAAC8173CDEF /* Pods-RealmInsertDeleteUpdateJoin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88W5XT7F3Y;
+				INFOPLIST_FILE = RealmInsertDeleteUpdateJoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakanozer.com.tr.RealmInsertDeleteUpdateJoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF18CAB81E446934006F19F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB8B7CFC57CABEBAFCA7C1F /* Pods-RealmInsertDeleteUpdateJoin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88W5XT7F3Y;
+				INFOPLIST_FILE = RealmInsertDeleteUpdateJoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakanozer.com.tr.RealmInsertDeleteUpdateJoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF18CA9F1E446934006F19F6 /* Build configuration list for PBXProject "RealmInsertDeleteUpdateJoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF18CAB41E446934006F19F6 /* Debug */,
+				FF18CAB51E446934006F19F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF18CAB61E446934006F19F6 /* Build configuration list for PBXNativeTarget "RealmInsertDeleteUpdateJoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF18CAB71E446934006F19F6 /* Debug */,
+				FF18CAB81E446934006F19F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF18CA9C1E446934006F19F6 /* Project object */;
+}

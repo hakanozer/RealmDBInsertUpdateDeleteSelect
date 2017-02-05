@@ -1,0 +1,6 @@
+framework module Pods_RealmInsertDeleteUpdateJoin {
+  umbrella header "Pods-RealmInsertDeleteUpdateJoin-umbrella.h"
+
+  export *
+  module * { export * }
+}

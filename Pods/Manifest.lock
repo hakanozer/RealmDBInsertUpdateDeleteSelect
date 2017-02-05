@@ -1,0 +1,20 @@
+PODS:
+  - Realm (2.1.2):
+    - Realm/Headers (= 2.1.2)
+  - Realm/Headers (2.1.2)
+  - RealmSwift (2.1.2):
+    - Realm (= 2.1.2)
+  - SCLAlertView (0.7.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
+  RealmSwift: 17d6ee30b6f9df86364408c2197492e33bfea567
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+
+PODFILE CHECKSUM: dbfd9caa17da3575e06bb54e90add4aeddc5b4aa
+
+COCOAPODS: 1.1.1
